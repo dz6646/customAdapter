@@ -34,11 +34,12 @@
             android:layout_weight="6" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/people"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="3"
-            android:text="TextView" />
+
+            android:textSize="25sp" />
 
         <Space
             android:layout_width="match_parent"

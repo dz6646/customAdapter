@@ -6,35 +6,35 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/iV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="4dp"
         android:layout_marginEnd="6dp"
-        app:layout_constraintEnd_toStartOf="@+id/textView5"
+        app:layout_constraintEnd_toStartOf="@+id/tV"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/tV"
         android:layout_width="0dp"
         android:layout_height="121dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="6dp"
         android:text="TextView"
-        app:layout_constraintEnd_toStartOf="@+id/textView6"
-        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintEnd_toStartOf="@+id/tV2"
+        app:layout_constraintStart_toEndOf="@+id/iV"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/tV2"
         android:layout_width="0dp"
         android:layout_height="118dp"
         android:layout_marginEnd="11dp"
         android:text="TextView"
-        app:layout_constraintBaseline_toBaselineOf="@+id/textView5"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tV"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView5" />
+        app:layout_constraintStart_toEndOf="@+id/tV" />
 </androidx.constraintlayout.widget.ConstraintLayout>
